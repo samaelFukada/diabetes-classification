@@ -14,5 +14,5 @@ Username dicoding: ahmadreginald
 | Metrik evaluasi | Metrik evaluasi yang digunakan yaitu AUC, Precision, Recall, ExampleCount dan BinaryAccuracy |
 | Performa model | Untuk performa model, keakuratan dan loss sangat baik, dengan keakuratan 0.97 pada proses pelatihan dan validasi dan loss 0,08 pada proses pelatihan dan validasi. Ini menunjukkan bahwa model ini layak untuk klasifikasi. |
 | Opsi deployment | Untuk deployment, sistem ini akan dideploy menggunakan platform railway |
-| Web app | [diabetes-classification]()|
+| Web app | [diabetes-classification](https://diabetes-classification-production-8549.up.railway.app/v1/models/diabetes-classification-model/metadata)|
 | Monitoring | Untuk memantau sistem ini, hanya Prometheus yang digunakan. Proses pengawasan dilakukan dengan menampilkan permintaan yang masuk ke sistem serta status untuk setiap permintaan yang diterima. Tiga status yang ditampilkan oleh sistem adalah: proses permintaan pada sistem klasifikasi tidak ditemukan, argumen yang salah, dan proses klasifikasi berhasil yang ditandai dengan ok. |
